@@ -16,7 +16,7 @@ struct SixthView: View {
         @State private var text3 = ""
         func correctButton() {
             if nameCountry1 == "netherlands" || nameCountry1 == "Netherlands" || nameCountry1 == "The netherlands" || nameCountry1 == "THE NETHERLANDS" || nameCountry1 == "The Nteherlands" || nameCountry1 == "holland" || nameCountry1 == "Holland" || nameCountry1 == "HOLLAND" {
-                text3 = "YES, this is \(nameCountry1)'s flag!! You completed the trivia"
+                text3 = "YESS, this is \(nameCountry1)'s flag!! You completed the trivia"
             }
             else {
                 text2 = "Try again, this is not \(nameCountry1)'s flag"
